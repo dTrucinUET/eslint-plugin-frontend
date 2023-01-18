@@ -98,7 +98,7 @@ module.exports = {
     }],
     'object-curly-spacing': ['error', 'always'],
     'array-bracket-spacing': ['error', 'never'],
-    'computed-property-spacing': ['error', 'always'],
+    'computed-property-spacing': ['error', 'never'],
     'object-shorthand': ['error', 'always'],
     'eqeqeq': ['error', 'always'],
     'space-in-parens': ['error', 'never'],
