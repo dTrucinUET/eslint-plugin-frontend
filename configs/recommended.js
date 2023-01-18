@@ -104,7 +104,13 @@ module.exports = {
     'space-in-brackets': ['error', 'always'],
     'space-before-blocks': ['error', 'always'],
     'block-spacing': ['error', 'always'],
-    'keyword-spacing': ['error', 'always'],
+    'keyword-spacing': ['error', {
+      'before': true,
+      'after': true,
+      'overrides': {
+        'function': { 'after': false },
+      },
+    }],
     'space-infix-ops': ['error'],
     'no-multi-spaces': ['error'],
     'key-spacing': ['error', {
