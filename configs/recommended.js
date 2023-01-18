@@ -98,10 +98,10 @@ module.exports = {
     }],
     'object-curly-spacing': ['error', 'always'],
     'array-bracket-spacing': ['error', 'never'],
+    'computed-property-spacing': ['error', 'always'],
     'object-shorthand': ['error', 'always'],
     'eqeqeq': ['error', 'always'],
     'space-in-parens': ['error', 'never'],
-    'space-in-brackets': ['error', 'always'],
     'space-before-blocks': ['error', 'always'],
     'block-spacing': ['error', 'always'],
     'keyword-spacing': ['error', {
