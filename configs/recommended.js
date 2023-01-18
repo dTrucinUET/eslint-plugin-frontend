@@ -105,22 +105,25 @@ module.exports = {
     'space-before-blocks': ['error', 'always'],
     'block-spacing': ['error', 'always'],
     'keyword-spacing': ['error', {
-      'before': true,
-      'after': true,
-      'overrides': {
-        'function': { 'after': false },
+      before: true,
+      after: true,
+      overrides: {
+        function: { 'after': false },
       },
     }],
     'space-infix-ops': ['error'],
     'no-multi-spaces': ['error'],
     'key-spacing': ['error', {
-      'afterColon': true,
-      'beforeColon': false,
-      'mode': 'strict',
+      afterColon: true,
+      beforeColon: false,
+      mode: 'strict',
     }],
     'indent': ['error', 2],
     'eol-last': ['error', 'always'],
-    'arrow-spacing': ['error', 'always'],
+    'arrow-spacing': ['error', {
+      before: true,
+      after: true
+    }],
     'newline-after-var': ['error', 'always'],
     'space-unary-ops': [2, {
       words: true,
