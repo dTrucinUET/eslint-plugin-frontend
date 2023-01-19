@@ -45,10 +45,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-this-alias': 'off',
     '@typescript-eslint/no-empty-function': 'off',
-    '@typescript-eslint/indent': ['error', 2, {
-      SwitchCase: 1,
-      MemberExpression: 1,
-    }],
+    '@typescript-eslint/indent': 'off',
     '@typescript-eslint/no-unused-vars': ['error', {
       'vars': 'all',
       'args': 'after-used',
@@ -73,6 +70,12 @@ module.exports = {
         },
       },
       multilineDetection: 'brackets',
+    }],
+    '@typescript-eslint/ban-types': ['error', {
+      'types': {
+        '{}': false,
+      },
+      'extendDefaults': true,
     }],
     'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent', {
