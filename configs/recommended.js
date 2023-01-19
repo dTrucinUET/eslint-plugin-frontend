@@ -121,7 +121,9 @@ module.exports = {
       beforeColon: false,
       mode: 'strict',
     }],
-    'indent': ['error', 2],
+    'indent': ['error', 2, {
+      "SwitchCase": 1
+    }],
     'eol-last': ['error', 'always'],
     'arrow-spacing': ['error', {
       before: true,
